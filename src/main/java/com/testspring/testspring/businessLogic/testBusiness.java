@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 public class testBusiness {
     public String registerRequest(registerModel rm){
 
-        return "Get data" + rm;
+        return "Get " + rm;
     }
 
 }
